@@ -1,0 +1,13 @@
+dataset,L,power_raw,power_smoothed,floor95
+wheat,0,0.0,0.0,0.2294
+wheat,300,0.44,0.44,0.2294
+wheat,600,0.76,0.76,0.2294
+wheat,1000,0.96,0.96,0.2294
+wheat,1500,0.96,0.96,0.2294
+wheat,2500,0.96,0.96,0.2294
+microbiome_crc,0,0.0,0.0,0.1914
+microbiome_crc,300,0.76,0.76,0.1914
+microbiome_crc,600,0.96,0.92,0.1914
+microbiome_crc,1000,0.88,0.92,0.1914
+microbiome_crc,1500,0.96,0.96,0.1914
+microbiome_crc,2500,1.0,1.0,0.1914

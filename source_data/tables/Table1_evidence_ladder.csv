@@ -1,0 +1,5 @@
+Candidate finding,Question,Outcome,Manuscript role
+candidate audit findings,are published benchmark claims often under-qualified?,"signal noted but downgraded — automated coding, no human gold standard",background only
+null-definition / null-validity checks,does the null definition affect detector interpretation?,leakage floors depend on null design; singleton-dominated group nulls are not measurable,supports null-validity discipline
+superseded calibration / binary findings,did early attractive findings survive audit?,"a calibration sign-flip was withdrawn; a binary ""saturation"" was a coding artefact, corrected",audit trail / limitation
+operating-characteristic & mechanism-specific findings,which claims survived?,calibrated Type E FP/power/LOD tradeoff; a group-shortcut drives Type A but not Type E,main results

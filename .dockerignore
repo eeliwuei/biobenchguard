@@ -1,0 +1,13 @@
+.git
+.venv
+**/__pycache__
+**/*.pyc
+**/output
+demo_results
+reproduced_figures
+reproduced_results
+*.pdf
+!results_locked/figures/*.pdf
+18_semisynthetic_reference_benchmarks
+11_product_experiments_stage3
+*_worktree

@@ -1,0 +1,7 @@
+dataset,setting,L,u_split,u_data_injection,u_null_calibration,u_c,dominant
+wheat,blank,0,0.0129,0.0318,0.0076,0.0352,data
+wheat,near_LOD,600,0.0302,0.0568,0.0076,0.0647,data
+wheat,above_LOD,1500,0.017,0.0643,0.0076,0.0669,data
+microbiome_crc,blank,0,0.0129,0.0191,0.0097,0.025,data
+microbiome_crc,near_LOD,600,0.0146,0.0155,0.0097,0.0234,data
+microbiome_crc,above_LOD,1500,0.0215,0.0436,0.0097,0.0496,data

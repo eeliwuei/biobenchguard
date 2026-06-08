@@ -1,0 +1,27 @@
+{
+  "tool": "BioBenchGuard",
+  "version": "0.3.0",
+  "mode": "rule-based (not a trained model)",
+  "benchmark": "crop_wheat_GP",
+  "domain": "genomic_prediction",
+  "per_mechanism_status": {
+    "G": "measurable_structure_present",
+    "A": "present",
+    "B": "not_tested",
+    "C": "present",
+    "D": "not_applicable",
+    "E": "present",
+    "F": "absent_with_sufficient_contrast"
+  },
+  "evidence_currently_supports": [
+    "- Type A: the artefact is present and was properly measured.  (random 0.517 vs structure-aware 0.193 (gap +0.324; eps 0.03))",
+    "- Type C: the artefact is present and was properly measured.  (flexible - tuned baseline = -0.033 (eps 0.03); 'present' = baseline competitive)",
+    "- Type E: the artefact is present and was properly measured.  (three-arm: selector +0.191, pure-leak +0.036, total +0.227 (eps 0.02))",
+    "- Type F: the artefact was measurable and not detected (true absence in this benchmark).  (pooled 0.187 vs within-group 0.193 (gap -0.006; eps 0.03))"
+  ],
+  "evidence_does_not_yet_support": [],
+  "recommended_validation_design": [
+    "- Type B: vary structure distance at matched training-N; ensure train-test contrast >= gate before any absence claim."
+  ],
+  "disclaimer": "Rule-based audit of measurement feasibility. Not an automated reviewer; does not claim any benchmark or paper is wrong. 'not measurable' is distinct from 'clean'. No production threshold changed."
+}

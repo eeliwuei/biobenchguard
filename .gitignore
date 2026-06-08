@@ -1,0 +1,40 @@
+# Python env / caches
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.DS_Store
+
+# Raw / fetched datasets — NOT redistributed here. Re-obtain via each pilot's fetch step + the documented open
+# sources (see DATA_AVAILABILITY.md and each pilot's claim_boundary). Derived results + scripts + md5 are committed.
+04_domain_pilots/*/data/
+
+# transient
+*.log
+.pytest_cache/
+
+# reproduction outputs: keep summaries, ignore regenerable per-case audit dirs
+outputs/smoke_test/*/
+outputs/demo/
+outputs/reproduction/*/
+outputs/paper/demo/
+
+# stray default-audit output dirs (regenerable; expected_outputs/ is the committed copy)
+12_release_engineering/examples/*/output/
+11_product_experiments_stage3/01_uncertainty_band/cases/output/
+
+# BioBenchGuard artifact MVP — regenerable command outputs (commit only locked source data + figures)
+_tmp_null/
+demo_results/
+audit_results/
+reproduced_figures/
+reproduced_results/
+my_results/
+build/
+dist/
+
+# reviewer command outputs (README writes here)
+/outputs/
+
+# submission package build artifacts (zip delivered by absolute path)
+/submission_packages/

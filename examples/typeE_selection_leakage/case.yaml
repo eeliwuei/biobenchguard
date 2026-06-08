@@ -1,0 +1,35 @@
+name: livestock_pig_GP
+domain: genomic_prediction
+# Source: companion livestock benchmark / pig pilot (illustrative; numbers from frozen pilot summaries).
+dataset_metadata:
+  raw_features_available: true
+  labels_available: true
+  structure_axis: relatedness
+  evidence_tier: raw
+  n_units: 3534
+group_structure:
+  n_groups: 8
+  min_group_size: 30
+  groups_with_ge_min: 8
+split_metadata:
+  split_type: leave_cluster
+  structure_contrast: 0.222
+  matched_n_reported: true
+baseline_config:
+  tuned_baseline_present: true
+  baseline_name: tuned GBLUP / Ridge
+preprocessing_log:
+  feature_selection: within_fold
+  duplicate_control: true
+  global_scaling_before_split: false
+results:
+  random_metric: 0.722
+  structure_aware_metric: 0.279
+  matched_n_metric: 0.700
+  pooled_metric: 0.155
+  within_group_metric: -0.041
+  flexible_minus_baseline: -0.041
+  three_arm:
+    clean_variance: 0.160
+    clean_supervised: 0.163
+    leaky_supervised: 0.280

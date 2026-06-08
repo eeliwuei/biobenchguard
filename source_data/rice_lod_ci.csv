@@ -1,0 +1,4 @@
+dataset,metric,median_L,ci_low,ci_high,censored_frac
+rice_rdp1,LOD50,1500.0,1500.0,2500.0,0.86
+rice_rdp1,LOD80,,,,1.0
+rice_rdp1,LOD95,,,,1.0

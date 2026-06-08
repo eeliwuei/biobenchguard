@@ -1,0 +1,7 @@
+dataset,group_kind,task,structure_axis,n,n_groups,eta_group,typeA_optimism_median,typeE_CminusB_median
+rice_rdp1,natural,regression,subpopulation,398,6,0.0,0.0076,0.3729
+rice_rdp1,natural,regression,subpopulation,398,6,0.05,0.0147,0.2471
+rice_rdp1,natural,regression,subpopulation,398,6,0.1,-0.0147,0.2276
+rice_rdp1,natural,regression,subpopulation,398,6,0.2,0.0778,0.1867
+rice_rdp1,natural,regression,subpopulation,398,6,0.4,0.1277,0.1033
+rice_rdp1,natural,regression,subpopulation,398,6,0.8,0.4863,0.0538

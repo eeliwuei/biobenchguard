@@ -1,0 +1,9 @@
+name: docker
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t biobenchguard:paper .
+      - run: docker run --rm biobenchguard:paper biobenchguard --version

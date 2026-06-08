@@ -1,0 +1,12 @@
+Parameter,Value,Applies to,Source
+top-k,20,Type E selection,executable script
+CV folds,5 (stratified for binary),all,executable script
+RandomForest trees,120,Type A,executable script
+ridge regularisation,1.0,Type E (regression),executable script
+L grid,"0, 300, 600, 1000, 1500, 2500",Type E severity,executable script
+\eta grid,"0, 0.05, 0.10, 0.20, 0.40, 0.80",Type A severity,executable script
+null draws B,120–150,floor calibration,result table
+power replicates,20–25 per L,power curves,result table
+bootstrap resamples,400,LOD confidence intervals,result table
+group embedding dim,10,Type A,executable script
+seed,20260601 + md5(setting) mod 1e6,all,executable script

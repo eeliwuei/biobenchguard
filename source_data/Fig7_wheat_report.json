@@ -1,0 +1,13 @@
+{
+  "case": "wheat selection-leakage certified reference",
+  "detector": "Type E (selection leakage), statistic C-B",
+  "status": "present",
+  "calibrated_floor95": 0.234,
+  "held_out_FPR_at_floor95": 0.08,
+  "nominal_FPR": 0.05,
+  "detection_power_at_L1000_FPR0.05": 0.88,
+  "null_validity": "measurable",
+  "evidence_gate": {"supported": "a selection-leakage statement", "unsupported": "a clean-benchmark statement"},
+  "source_tables": ["typeE_detector_fp.csv (wheat row)", "typeE_matched_fpr_power.csv (wheat, L=1000, FPR=0.05)"],
+  "note": "Operating-characteristic read-out assembled from the locked source tables; not a rule-engine per-case report.json (the genomic-prediction selection-leakage engine example is examples/typeE_selection_leakage)."
+}

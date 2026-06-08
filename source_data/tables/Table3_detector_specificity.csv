@@ -1,0 +1,5 @@
+Mechanism,Statistic,Positive control,Detects,Does NOT detect
+Type E selection leakage,T_E=C-B,full-data selection (arm C),full-data vs in-fold selection leakage,Type A group shortcut
+Type A group shortcut,T_A= random - LGO,imposed k-means groups,structure / group optimism,pure selection leakage
+null-validity,feasibility \Gamma_k,singleton-dominated null,degenerate group null,(returns not measurable)
+evidence-tier gate,supported / unsupported claims,—,the claim boundary,—

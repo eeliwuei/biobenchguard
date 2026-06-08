@@ -1,0 +1,8 @@
+artefact,status,rationale
+G,measurable_structure_present,"raw_features=True, structure=study"
+A,absent_with_sufficient_contrast,random 0.810 vs structure-aware 0.790 (gap +0.020; eps 0.03)
+B,not_tested,no train-test structure contrast reported
+C,absent_with_sufficient_contrast,flexible - tuned baseline = +0.244 (eps 0.03); 'present' = baseline competitive
+D,not_applicable,no surviving flexible advantage after A/C controls
+E,present,"three-arm: selector +0.063, pure-leak +0.054, total +0.117 (eps 0.02)"
+F,absent_with_sufficient_contrast,pooled 0.765 vs within-group 0.790 (gap -0.025; eps 0.03)

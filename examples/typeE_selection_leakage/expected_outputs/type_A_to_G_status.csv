@@ -1,0 +1,8 @@
+artefact,status,rationale
+G,measurable_structure_present,"raw_features=True, structure=relatedness"
+A,present,random 0.722 vs structure-aware 0.279 (gap +0.443; eps 0.03)
+B,present_structural,"contrast 0.222 >= gate; matched-N metric 0.700 ~ random 0.722 -> structural, not support"
+C,present,flexible - tuned baseline = -0.041 (eps 0.03); 'present' = baseline competitive
+D,not_applicable,no surviving flexible advantage after A/C controls
+E,present,"three-arm: selector +0.003, pure-leak +0.117, total +0.120 (eps 0.02)"
+F,present,pooled 0.155 vs within-group -0.041 (gap +0.196; eps 0.03)

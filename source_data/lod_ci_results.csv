@@ -1,0 +1,7 @@
+dataset,metric,median_L,ci_low,ci_high,censored_frac
+wheat,LOD50,600,300,600,0.0
+wheat,LOD80,1000,600,1000,0.0
+wheat,LOD95,1000,1000,2500,0.16
+microbiome_crc,LOD50,300,300,300,0.0
+microbiome_crc,LOD80,600,300,600,0.0
+microbiome_crc,LOD95,1500,600,2500,0.0

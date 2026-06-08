@@ -1,0 +1,8 @@
+artefact,status,rationale
+G,measurable_structure_present,"raw_features=True, structure=scaffold"
+A,absent_with_sufficient_contrast,random 0.921 vs structure-aware 0.905 (gap +0.016; eps 0.03)
+B,not_tested,no train-test structure contrast reported
+C,absent_with_sufficient_contrast,flexible - tuned baseline = +0.031 (eps 0.03); 'present' = baseline competitive
+D,not_applicable,no surviving flexible advantage after A/C controls
+E,absent_with_sufficient_contrast,"three-arm: selector -0.027, pure-leak +0.004, total -0.023 (eps 0.02)"
+F,not_measurable_low_coverage,only 1 group(s) with >= 30 units: within-group metric not reliably measurable

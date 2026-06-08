@@ -1,0 +1,29 @@
+{
+  "tool": "BioBenchGuard",
+  "version": "0.3.0",
+  "mode": "rule-based (not a trained model)",
+  "benchmark": "tdc_bbb_martins_scaffold",
+  "domain": "drug",
+  "per_mechanism_status": {
+    "G": "measurable_structure_present",
+    "A": "absent_with_sufficient_contrast",
+    "B": "not_tested",
+    "C": "absent_with_sufficient_contrast",
+    "D": "not_applicable",
+    "E": "absent_with_sufficient_contrast",
+    "F": "not_measurable_low_coverage"
+  },
+  "evidence_currently_supports": [
+    "- Type A: the artefact was measurable and not detected (true absence in this benchmark).  (random 0.921 vs structure-aware 0.905 (gap +0.016; eps 0.03))",
+    "- Type C: the artefact was measurable and not detected (true absence in this benchmark).  (flexible - tuned baseline = +0.031 (eps 0.03); 'present' = baseline competitive)",
+    "- Type E: the artefact was measurable and not detected (true absence in this benchmark).  (three-arm: selector -0.027, pure-leak +0.004, total -0.023 (eps 0.02))"
+  ],
+  "evidence_does_not_yet_support": [
+    "- Type F: do NOT report the within-group metric as a finding (too few groups).  (only 1 group(s) with >= 30 units: within-group metric not reliably measurable)"
+  ],
+  "recommended_validation_design": [
+    "- Type B: vary structure distance at matched training-N; ensure train-test contrast >= gate before any absence claim.",
+    "- Type F: report pooled AND within-group metrics over groups with sufficient units."
+  ],
+  "disclaimer": "Rule-based audit of measurement feasibility. Not an automated reviewer; does not claim any benchmark or paper is wrong. 'not measurable' is distinct from 'clean'. No production threshold changed."
+}

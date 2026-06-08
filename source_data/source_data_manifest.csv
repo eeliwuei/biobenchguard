@@ -1,0 +1,15 @@
+file,md5,rows,cols,locked,supersedes_old
+lod_ci_results.csv,03edb3661772d11d47da1f4871155378,6,6,yes,no
+lod_power_curves.csv,7dc4ca5caaad2e438bbb082b98d26322,12,5,yes,no
+rice_lod_ci.csv,d8bfbfc3ab5348e96f157a636584fa42,3,6,yes,no
+rice_lod_curves.csv,2ee0073d727d5ed5e49e2cb5c0263dac,6,5,yes,no
+rice_typeE_detector.csv,adb87bf220a661a324731ea0af9599d2,1,4,yes,no
+rice_typeE_power.csv,8c68f1f7b41014a498475dabee40998a,12,8,yes,no
+rr_results.csv,71b353ac92754735f69150578a6c5f27,4,9,yes,no
+typeA_corrected_g3.csv,2a8f82513bfde20b333876d3af1028b4,18,8,yes,no
+typeA_rice_g3.csv,baba8a768f8980d988cd06b432046f43,6,9,yes,no
+typeE_detector_fp.csv,94371acc0a8a5820aa0b76a1f17d54f4,2,6,yes,no
+typeE_matched_fpr_power.csv,7b1393fedb37418f9a4444fb346f5048,24,5,yes,no
+uncertainty_budget_results.csv,c6bdc19b61c4c05ecbc8880b0e7908a4,6,8,yes,no
+wheat_typeA_g3.csv,b621a3d7ab8400b0c1545170b4495bff,6,9,yes,no
+Fig7_worked_example_source_data.csv,c43a2f956bc983861ba0298b75655887,2,7,yes,no

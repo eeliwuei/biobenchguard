@@ -1,0 +1,6 @@
+Base,Domain,n,p,Group variable (type),Role,Label used as truth?
+wheat,genomic,599,"1,279",k-means cluster (imposed),genomic geometry,No
+rice RDP1,genomic (plant),398,"36,901",subpopulation (natural),high-dim geometry,No
+microbiome CRC,microbiome,468,~195,study cohort (natural),cross-study,No
+microbiome OB,microbiome,962,~108,study cohort (natural),cross-study,No
+TDC,drug,"2,039","1,024","Bemis–Murcko scaffold (degenerate, 0.74 singleton)",boundary,No

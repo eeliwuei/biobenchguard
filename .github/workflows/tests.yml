@@ -1,0 +1,16 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install -r requirements.lock && pip install --no-deps -e .
+      - run: biobenchguard --version
+      - run: biobenchguard demo --out /tmp/demo
+      - run: biobenchguard validate examples/minimal_case/case.yaml
+      - run: biobenchguard audit examples/null_degenerate_tdc/case.yaml --out /tmp/audit
+      - run: biobenchguard reproduce-figures --quick --out /tmp/figs
+      - run: pytest -q

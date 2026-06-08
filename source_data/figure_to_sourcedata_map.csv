@@ -1,0 +1,8 @@
+figure,source_data_files,note
+Fig1,,schematic (no data)
+Fig2,,schematic (no data); provenance in Table 2
+Fig3,"typeE_detector_fp.csv;typeE_matched_fpr_power.csv;rice_typeE_detector.csv;rice_typeE_power.csv",Type E operating characteristic (FPR/power) across 3 geometries
+Fig4,"lod_ci_results.csv;lod_power_curves.csv;rice_lod_ci.csv;rice_lod_curves.csv",limit of detection (LOD) with CIs; rice right-censored
+Fig5,"typeA_corrected_g3.csv;typeA_rice_g3.csv;wheat_typeA_g3.csv",Type A vs Type E mechanism specificity (4 bases)
+Fig6,"uncertainty_budget_results.csv;rr_results.csv",uncertainty budget + repeatability/reproducibility
+Fig7,"Fig7_worked_example_source_data.csv;Fig7_wheat_report.json;Fig7_tdc_report.json;typeE_detector_fp.csv(wheat);typeE_matched_fpr_power.csv(wheat L=1000)",worked example: wheat calibrated read-out (floor95 0.234/FPR 0.08/power 0.88) + drug scaffold null-validity not measurable (engine report on examples/null_degenerate_tdc)

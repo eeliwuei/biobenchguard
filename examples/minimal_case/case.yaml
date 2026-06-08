@@ -1,0 +1,36 @@
+name: microbiome_crc_loso
+domain: microbiome
+# Source: microbiome CRC leave-one-study-out pilot (3 cohorts, genus-level; RF vs Logistic; matched three-arm).
+dataset_metadata:
+  raw_features_available: true
+  labels_available: true
+  structure_axis: study
+  evidence_tier: raw
+  n_units: 438
+group_structure:
+  n_groups: 3
+  min_group_size: 30
+  groups_with_ge_min: 3
+split_metadata:
+  split_type: leave_study_out
+  structure_contrast: null
+  matched_n_reported: true
+  sample_size_coupling: decoupled
+baseline_config:
+  tuned_baseline_present: true
+  baseline_name: Logistic regression
+preprocessing_log:
+  feature_selection: within_fold
+  duplicate_control: true
+  global_scaling_before_split: false
+results:
+  random_metric: 0.810
+  structure_aware_metric: 0.790
+  matched_n_metric: 0.802
+  pooled_metric: 0.765
+  within_group_metric: 0.790
+  flexible_minus_baseline: 0.244
+  three_arm:
+    clean_variance: 0.557
+    clean_supervised: 0.620
+    leaky_supervised: 0.674

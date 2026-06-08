@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use BioBenchGuard, please cite the paper and this software artifact."
+title: "BioBenchGuard: rule-based measurement-feasibility audit for biological-prediction benchmarks"
+type: software
+version: 0.3.0
+license: Apache-2.0
+authors:
+  - family-names: Liu
+    given-names: Wei
+    affiliation: "DeepFarm Inc., Seoul, Republic of Korea"
+  - family-names: Jang
+    given-names: Seojin
+    affiliation: "DeepFarm Inc., Seoul, Republic of Korea"
+    email: seojinygud@deepfarm.net
+repository-code: "https://github.com/eeliwuei/biobenchguard"
+doi: TO_BE_ASSIGNED_UPON_ARCHIVAL
+preferred-citation:
+  type: article
+  title: "Certified reference benchmarks reveal the operating characteristics of artefact detectors in biological prediction"
+  authors:
+    - { family-names: Liu, given-names: Wei }
+    - { family-names: Jang, given-names: Seojin }
+  year: 2026
+  notes: "Target venue: Patterns (Cell Press)."

@@ -1,0 +1,7 @@
+dataset,L,power_raw,power_smoothed,floor95
+rice_rdp1,0,0.04,0.04,0.4516
+rice_rdp1,300,0.04,0.04,0.4516
+rice_rdp1,600,0.12,0.12,0.4516
+rice_rdp1,1000,0.2,0.2,0.4516
+rice_rdp1,1500,0.44,0.4,0.4516
+rice_rdp1,2500,0.36,0.4,0.4516

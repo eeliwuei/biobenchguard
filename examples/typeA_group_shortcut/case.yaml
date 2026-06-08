@@ -1,0 +1,36 @@
+name: crop_wheat_GP
+domain: genomic_prediction
+# Source: crop wheat GP pilot (CIMMYT wheat; GBLUP vs RF; leave-relatedness-cluster; matched three-arm marker selection).
+dataset_metadata:
+  raw_features_available: true
+  labels_available: true
+  structure_axis: relatedness
+  evidence_tier: raw
+  n_units: 599
+group_structure:
+  n_groups: 5
+  min_group_size: 30
+  groups_with_ge_min: 5
+split_metadata:
+  split_type: leave_cluster
+  structure_contrast: null
+  matched_n_reported: true
+  sample_size_coupling: decoupled
+baseline_config:
+  tuned_baseline_present: true
+  baseline_name: GBLUP (tuned lambda)
+preprocessing_log:
+  feature_selection: within_fold
+  duplicate_control: true
+  global_scaling_before_split: false
+results:
+  random_metric: 0.517
+  structure_aware_metric: 0.193
+  matched_n_metric: 0.517
+  pooled_metric: 0.187
+  within_group_metric: 0.193
+  flexible_minus_baseline: -0.033
+  three_arm:
+    clean_variance: 0.255
+    clean_supervised: 0.446
+    leaky_supervised: 0.482

@@ -1,0 +1,9 @@
+# Pinned canonical environment for the BioBenchGuard paper artifact (CPU-only; no GPU).
+# Verified with Python 3.11 (Docker python:3.11-slim) and the Mac dev venv (Python 3.x).
+pyyaml==6.0.3
+numpy==1.26.4
+pandas==2.3.3
+matplotlib==3.10.9
+scikit-learn==1.8.0
+scipy==1.17.1
+pytest==9.0.3

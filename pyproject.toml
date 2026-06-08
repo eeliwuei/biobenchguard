@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biobenchguard"
+version = "0.3.0"
+description = "Transparent, rule-based measurement-feasibility audit tool and reproduction package for the benchmark-metrology paper (not a trained model, not an automated reviewer, not a clinical tool)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Wei Liu" }, { name = "Seojin Jang" }]
+keywords = ["benchmark-metrology", "artefact-detector", "operating-characteristic", "rule-based", "reproducibility"]
+dependencies = [
+  "pyyaml>=6.0",
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+# full reproduction (recompute source data from raw public inputs); CPU-only, no GPU required
+full = ["scikit-learn>=1.3", "scipy>=1.10"]
+test = ["pytest>=7"]
+
+[project.scripts]
+biobenchguard = "biobenchguard.cli:main"
+
+[tool.setuptools]
+packages = ["biobenchguard"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

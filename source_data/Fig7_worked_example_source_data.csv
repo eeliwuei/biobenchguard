@@ -1,0 +1,3 @@
+case,detector,status,statistic,threshold_or_floor,FPR_or_power,interpretation
+wheat Type E,Type E,present,C-B / floor95,0.234,FPR 0.08 / power 0.88,selection-leakage supported
+TDC scaffold,null-validity,not measurable,singleton-dominated grouping,NA,NA,clean verdict withheld

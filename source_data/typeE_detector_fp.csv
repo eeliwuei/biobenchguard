@@ -1,0 +1,3 @@
+name,task,floor95,FP_heldout_at_floor95,AUROC_pure_leak,AUROC_selector_adjusted
+wheat,regression,0.234,0.08,0.863,0.863
+microbiome_crc,binary,0.1963,0.04,0.965,0.892
