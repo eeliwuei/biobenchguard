@@ -1,5 +1,7 @@
 # BioBenchGuard
 
+> **Note (October 2026).** The analysis code for the revised article, *Controlled reference tasks characterize benchmark diagnostics in biological prediction* (Patterns, 2026), is archived at Zenodo (https://doi.org/10.5281/zenodo.23124515) and mirrored at https://github.com/eeliwuei/biobenchguard-patterns. This repository holds the BioBenchGuard toolkit of the original submission and does not contain that revision.
+
 Rule-based measurement-feasibility audit for biological-prediction benchmarks, and the reproduction package for the
 paper *"Certified reference benchmarks reveal the operating characteristics of artefact detectors in biological
 prediction."* **CPU-only.** It is a transparent rule set — not a trained model and not an automated reviewer (see
